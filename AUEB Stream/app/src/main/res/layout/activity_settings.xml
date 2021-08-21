@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon0" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Nick"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Server IP Address: 192.168.1.3"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="My IP Address: 192.168.1.2"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="My Port: 10750"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/icon0"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon0" />
+
+            <ImageButton
+                android:id="@+id/icon1"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon1" />
+
+            <ImageButton
+                android:id="@+id/icon2"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon2" />
+
+            <ImageButton
+                android:id="@+id/icon3"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon3" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/icon4"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon4" />
+
+            <ImageButton
+                android:id="@+id/icon5"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon5" />
+
+            <ImageButton
+                android:id="@+id/icon6"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon6" />
+
+            <ImageButton
+                android:id="@+id/icon7"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon7" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

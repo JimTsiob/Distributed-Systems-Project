@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".Stream">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" >
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Subscribe to Topics"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/subscribeButton"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/subscribe_menu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Stream Videos"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/streamButton"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stream_menu" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
